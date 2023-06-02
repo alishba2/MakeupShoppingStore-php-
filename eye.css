@@ -1,0 +1,43 @@
+
+.card-container{
+    padding-top: 6em;
+    display:flex; 
+    flex-wrap:wrap; 
+    column-gap:30px;
+     row-gap:30px;
+    justify-content:center
+}
+
+
+
+.product > div{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    padding-top: 1em;
+    font-family: 'Barlow Semi Condensed', sans-serif;
+  }
+  .cartButton{
+    background-color: white;
+    border: 1px solid black;
+    padding: 20px;
+  
+  }
+  
+  .filter-search-container {
+    display: flex !important;
+    justify-content: space-between !important;
+}
+
+
+.filter-search-container form:not(:last-child) {
+    margin-right: 10px;
+}
+
+.filter-search-container input[type="text"] {
+    padding: 5px;
+}
+
+.filter-search-container button {
+    padding: 5px 10px;
+}
